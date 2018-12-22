@@ -1,0 +1,63 @@
+{
+  "_from": "git+ssh://git@phab.selenite.co.in:2222/source/preact-router.git",
+  "_id": "preact-router@2.7.0",
+  "_inBundle": false,
+  "_integrity": "sha1-DZhsGrR5Z2NfYKfPTcHPxUI7zdE=",
+  "_location": "/preact-router",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "preact-router@git+ssh://git@phab.selenite.co.in:2222/source/preact-router.git",
+    "name": "preact-router",
+    "escapedName": "preact-router",
+    "rawSpec": "git+ssh://git@phab.selenite.co.in:2222/source/preact-router.git",
+    "saveSpec": "git+ssh://git@phab.selenite.co.in:2222/source/preact-router.git",
+    "fetchSpec": "ssh://git@phab.selenite.co.in:2222/source/preact-router.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+ssh://git@phab.selenite.co.in:2222/source/preact-router.git#d0440231ae8f6962099851a3d78eb40b9a221087",
+  "_spec": "preact-router@git+ssh://git@phab.selenite.co.in:2222/source/preact-router.git",
+  "_where": "/home/manohar/Projects/Billwise/billwise-app",
+  "author": {
+    "name": "exp10r3r",
+    "email": "kaushal@protonmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/developit/preact-router/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Connect your components up to that address bar.",
+  "devDependencies": {
+    "eslint-plugin-react": "^7.5.1"
+  },
+  "files": [
+    "src",
+    "dist",
+    "match.js"
+  ],
+  "homepage": "https://github.com/developit/preact-router",
+  "keywords": [
+    "preact",
+    "router"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "name": "preact-router",
+  "peerDependencies": {
+    "preact": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developit/preact-router.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "release": "npm run build && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
+  },
+  "version": "2.7.0"
+}
